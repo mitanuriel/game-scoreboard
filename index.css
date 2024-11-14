@@ -1,0 +1,59 @@
+body {
+    background-color: darkslategrey;
+    color: white;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    text-align: center;
+}
+
+#output, #output2 {
+    font-family:'Scoreboard', sans-serif;
+    margin: 20px;
+    line-height: 20%;
+    font-size:xx-large;
+    background-color: black;
+    color: crimson;
+    padding: 20px;
+}
+
+@font-face {
+    font-family: 'Scoreboard'; 
+    src: url('CursedTimerUlil-Aznm.ttf') format('truetype'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.first, .second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn {
+    background-color: darkslategrey;
+    font-family: 'Scoreboard';
+
+}
+
+h3 {
+    margin: 10px;
+    font-size: large;
+}
+
+.score-display {
+    font-family: 'Scoreboard';
+    background-color: black;
+    padding: 15px;
+    font-size: 50px;
+    margin: 10px;
+    color: crimson;
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+}
