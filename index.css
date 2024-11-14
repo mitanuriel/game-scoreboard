@@ -26,28 +26,20 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
-<<<<<<< HEAD
     align-items: center;
     padding: 20px;
-=======
->>>>>>> 6bf4149b85dac545f2fdefd38151bcdd98524078
 }
 
 .first, .second{
     display: flex;
     flex-direction: column;
-<<<<<<< HEAD
     justify-content: center;
-=======
-    justify-content: space-around;
->>>>>>> 6bf4149b85dac545f2fdefd38151bcdd98524078
     align-items: center;
 }
 
 .btn {
     background-color: darkslategrey;
     font-family: 'Scoreboard';
-<<<<<<< HEAD
     padding: 15px 20px;
     font-size: 24px;
     margin: 5px;
@@ -57,25 +49,21 @@ body {
     cursor: pointer;
 }
 
+
 h3 {
     margin: 15px;
     font-size: 50px;
     color: darkkhaki;
-=======
+
 
 }
 
-h3 {
-    margin: 10px;
-    font-size: large;
->>>>>>> 6bf4149b85dac545f2fdefd38151bcdd98524078
-}
+
 
 .score-display {
     font-family: 'Scoreboard';
     background-color: black;
-<<<<<<< HEAD
-    padding: 30px;
+    padding: 20px;
     font-size: 150px;
     margin: 20px;
     color: crimson;
@@ -84,15 +72,5 @@ h3 {
     align-items: center;
     text-align: center;
     width: 150px;
-    height: 150px;
-    line-height: 1;
-=======
-    padding: 15px;
-    font-size: 50px;
-    margin: 10px;
-    color: crimson;
-    display: inline-block;
-    text-align: center;
-    width: 60px;
->>>>>>> 6bf4149b85dac545f2fdefd38151bcdd98524078
+    height: 200px;
 }
